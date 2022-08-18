@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 80vh;
+}
+
+.classify {
+  padding: 3px 5px;
+  background: #eee;
+  width: fit-content;
+  width: -moz-fit-content;
+  border-radius: 5px;
+  font-weight: normal;
+}
